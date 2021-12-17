@@ -1,0 +1,74 @@
+body{
+    background-color: #3f768a;
+    align-items: center;
+}
+h1 {
+    font-family: 'Caveat', cursive;
+    align-items: center;
+    margin-left: 40%;
+    font-size: 40px;
+}
+.display {
+    font-family: 'Caveat', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    background-color: #278696;
+    border-radius: 11px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 0%;
+    margin-right: 25%;
+    margin-bottom: 0%;
+    border-width: 3px;
+    border-color: slategray;
+}
+.computer {
+ font-family: 'Caveat', cursive;
+ font-size: 42px;
+}
+.user {
+ font-family: 'Caveat', cursive;
+ font-size: 42px;
+}
+.result {
+ font-family: 'Caveat', cursive;
+ font-size: 42px;
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rock, .paper, .scissors{
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    align-items: center;
+    padding: 45px;
+    border-radius: 11px;
+}
+.rock{
+    margin: 20px;
+    background-color: #33292c;
+    border-width: 3px;
+    border-color: slategray;
+}
+.paper{
+    margin: 20px;
+    background-color: #cce6e8;
+    border-width: 3px;
+    border-color: slategray;
+}
+.scissors{
+    margin: 20px;
+    background-color: #e32467;
+    border-width: 3px;
+    border-color: slategray;
+}
